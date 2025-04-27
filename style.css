@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    margin: 5px;
+    height: 100%;
+}
+.header-sec{
+    background-color: rgb(0, 163, 30);
+    height: 100px;
+    color: rgb(254, 243, 243);
+    padding: 20px;
+    text-align: center;
+}
+header p{
+    padding: 15px;
+}
+.nav-sec{
+    background-color:rgb(47, 47, 47);
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+nav a{
+    color:whitesmoke ;
+    text-decoration: none;
+    margin-left: 6rem;
+}
+.content{
+   background-color: aliceblue; 
+   height: 1500px;
+}
+.box{
+    background-color: white;
+    margin: 30px;
+    border-radius: 5px;
+    box-shadow: 0.5px 0.2px 2px 3px rgb(238, 236, 236); 
+
+}
+.about-section{
+    height: 200px;
+   
+}
+.section-content{
+    margin: px ;
+    padding: 30px;
+}
+.section-content:target{
+    display: block;
+}
+
+h2{
+     padding: 1.5rem  0 1.5rem 0;
+     margin-left: 0px;
+     color: rgb(12, 113, 237);
+}
+
+.schedule-tbl{
+    border:1px solid black;
+    padding: 20px;
+    border-collapse: collapse;
+    text-align: left;
+
+}
+th{
+    background-color: rgb(194, 148, 89);
+}
+th,td{
+    border-right: 1px solid rgb(154, 142, 142);
+    background-color: rgb(233, 232, 232);
+    padding: 12px;
+}
+tr{
+    border-bottom: 1px solid black;
+}
+table th{
+    background-color: antiquewhite;
+}
+table tr:nth-child(even ){
+    background-color: rgb(178, 157, 157);
+}
+.speakers-section{
+    height: 200px;
+    
+}
+.speakers-section p span{
+    color: rgb(12, 113, 237);
+    font-weight: bold;
+}
+.speakers-section p{
+    padding: 8px;
+}
+.contact-section{
+    
+    height: 580px;
+}
+label{
+    padding: 30px;
+    display: block;
+    margin-left: 8%;
+    font-size: 20px;
+    
+}
+input{
+    padding: 15px;
+    width: 75%;
+    border-radius: 4px;
+    margin-left: 10%;
+}
+textarea{
+    padding: 15px;
+    width: 75%;
+    border-radius: 3px;
+    margin-left: 10%;
+    border: 2px solid;
+}
+.details-fill{
+    margin: 200px;
+    padding: 20px;
+}
+button{
+    background-color: rgb(12, 113, 237);
+    display: block;
+    margin-top: 25px;
+    border-radius: 6px;
+    margin-left: 10%;
+    border: 2px solid;
+    font-size:1rem;
+    width: 77.4%;
+    padding: 15px;
+    color: white;
+    text-align: center;
+}
+button:hover{
+    background-color: rgb(23, 122, 243);
+    
+}
+button:active{
+    background-color: rgb(29, 90, 244);
+}
